@@ -1,0 +1,39 @@
+﻿@httprigerFunctionapp_HostAddress = http://localhost:7147
+
+GET {{httprigerFunctionapp_HostAddress}}/api/twoactions?name=dotnetrealworldexample
+
+###
+
+POST {{httprigerFunctionapp_HostAddress}}/api/twoactions
+
+{
+  "id" : 1,
+  "name" : "dotnetrealworldexample"
+}
+
+
+
+###
+
+POST {{httprigerFunctionapp_HostAddress}}/api/CreateBlog
+
+{
+  "id" : 1,
+  "name" : "dotnetrealworldexample"
+}
+###
+
+DELETE {{httprigerFunctionapp_HostAddress}}/api/DeleteBlog
+
+{
+  "id" : 1,
+  "name" : "dotnetrealworldexample"
+}
+###
+
+PUT {{httprigerFunctionapp_HostAddress}}/api/UpdateBlog
+{
+  "id" : 1,
+  "name" : "dotnetrealworldexample"
+}
+###
